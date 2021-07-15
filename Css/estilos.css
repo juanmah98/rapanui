@@ -1,0 +1,30 @@
+★{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.padre{
+
+    background-color: rgb(71, 71, 71);
+}
+
+img{
+    width: 95%;
+    height: 95%;
+    margin-top: 15px;
+    margin-left: 2.5%;
+    
+}
+
+h1{
+    color: rgb(255, 196, 0);
+    text-align: center;
+    font-size: 60px;
+    font-family:  sans-serif;
+    font-style:normal;
+}
+
+
+
