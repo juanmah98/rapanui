@@ -1,0 +1,1006 @@
+.Contenedor{
+    max-width: 80%;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .padre{
+
+        background-color: rgb(71, 71, 71);
+    }
+    
+    .padre img{
+        width: 60%;
+        height: 95%;
+        margin-top: 15px;
+        margin-left: 20%;
+        
+    }
+    
+    h1{
+        color: rgb(255, 196, 0);
+        text-align: center;
+        font-size: 60px;
+        font-family:  sans-serif;
+        font-style:normal;
+        margin-top: 6%;
+    }
+
+    
+
+    .logo{
+        
+        position: static;
+        display: flex;
+        margin-top: 5%;
+        margin-left: 15%;
+        
+    }
+
+    .logo img{
+        width: 700px;
+    }
+    
+    .fotos{
+        width: 100%;
+        position: static ;
+    }
+
+    .fotos img{
+        width: 400px;
+    }
+    
+    .fotos .izq ul{
+        list-style: none;
+        
+        display: flex;
+        list-style-type: none;
+        margin-left: 2%;
+        
+        
+        
+        
+    }
+    
+    .fotos .izq li{
+        margin: 10px;
+        
+        
+    }
+    
+    .mapa{
+        
+        position: static ;
+        
+        margin-top: 5%;
+        padding-top: 2%;
+        padding-bottom: 5%;
+        margin-bottom: 1%;
+        
+    }
+    
+    .mapa ul
+    {
+        list-style: none;
+        display: block;
+        width: 100%;
+    }
+    
+    .mapa li{
+        padding-left: 15%;
+    }
+    
+    .mapa li .p{
+        font-family:sans-serif ;
+    }
+    
+    
+    .mapa h1{
+    
+        font-size: 50px;
+        text-align: center;
+       color: rgb(184, 67, 0);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .mapa p{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+    }
+    
+    .derechos{
+       
+        background-color: rgb(32, 32, 32);
+       
+        float: left;
+        width: 100%;
+        margin-left: -0px;
+            
+    }
+    
+    .derechos p{
+    
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        text-align: center;
+    }
+    
+    .mapa a img{
+        margin: 5px;
+    }
+
+}
+
+@media screen and (max-width: 800px)
+{
+    .padre{
+
+        background-color: rgb(71, 71, 71);
+    }
+    
+    .padre img{
+        width: 95%;
+        height: 95%;
+        margin-top: 15px;
+        margin-left: 2.5%;
+        
+    }
+    
+    h1{
+        color: rgb(255, 196, 0);
+        text-align: center;
+        font-size: 50px;
+        font-family:  sans-serif;
+        font-style:normal;
+        margin-top: 15%;
+    }
+
+    .logo{
+        
+        position: static;
+        display: flex;
+        margin-top: 10%;
+        margin-left: 5%;
+        
+    }
+
+    .logo img{
+        width: 500px;
+    }
+    
+    .fotos{
+        width: 100%;
+        position: static ;
+    }
+
+    .fotos img{
+        width: 400px;
+    }
+    
+    .fotos .izq ul{
+        
+        list-style: none;
+        
+        display:block;
+        list-style-type: none;
+        margin-left: 4%;
+        
+        
+        
+    }
+    
+    .fotos .izq li{
+        margin: 10px;
+        
+        
+    }
+    
+    .mapa{
+        
+        position: static ;
+        
+        margin-top: 5%;
+        padding-top: 2%;
+        padding-bottom: 5%;
+        margin-bottom: 10%;
+        
+    }
+    
+    .mapa ul
+    {
+        list-style: none;
+        display: block;
+        width: 100%;
+    }
+    
+    .mapa li{
+        padding-left: 5%;
+    }
+
+    .mapa iframe{
+        width: 400px;
+    }
+    
+    .mapa li .p{
+        font-family:sans-serif ;
+    }
+
+    
+    
+    
+    .mapa h1{
+    
+        font-size: 35px;
+        text-align: center;
+       color: rgb(184, 67, 0);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .mapa p{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18px;
+    }
+    
+    .derechos{
+       
+        background-color: rgb(32, 32, 32);
+       
+        float: left;
+        width: 100%;
+        margin-left: 0px;
+            
+    }
+    
+    .derechos p{
+    
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .mapa a img{
+       margin: -20px;
+        margin-left: 10%;
+        width: 50px;
+    }
+
+}
+
+@media screen and (max-width: 430px)
+{
+    .padre{
+
+        background-color: rgb(71, 71, 71);
+    }
+    
+    .padre img{
+        width: 95%;
+        height: 95%;
+        margin-top: 15px;
+        margin-left: 2.5%;
+        
+    }
+    
+    h1{
+        color: rgb(255, 196, 0);
+        text-align: center;
+        font-size: 40px;
+        font-family:  sans-serif;
+        font-style:normal;
+        margin-top: 15%;
+        margin-left: 5%;
+    }
+
+    .barratexto{
+    
+        float: left;
+        
+        position: fixed;
+        background-color: rgb(32, 32, 32);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 6%;
+        
+        
+        
+    }
+    
+    .barratexto ul{
+    
+       margin-right: 5%;
+       margin-top: 2%;
+    }
+    
+    .barratexto ul li{
+        float: right;
+        list-style-type: none;
+        
+        text-align: left; 
+        margin: 5px;
+      
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    
+    .barratexto ul li a img{
+        margin-top: -15%;
+        width: 25px;
+    }
+    
+    .barratexto a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        
+        
+    }
+
+    .logo{
+        
+        position: static;
+        display: flex;
+        margin-top: 20%;
+        margin-left: 0%;
+        padding-bottom: 5%;
+        
+    }
+
+    .logo img{
+        width: 420px;
+    }
+    
+    .fotos{
+        width: 100%;
+        position: static ;
+    }
+
+    .fotos img{
+        width: 350px;
+    }
+    
+    .fotos .izq ul{
+        
+        list-style: none;
+        
+        display:block;
+        list-style-type: none;
+        margin-left: -4%;
+        
+        
+        
+        
+    }
+    
+    .fotos .izq li{
+        margin: 10px;
+        
+        
+    }
+    
+    .mapa{
+        
+        position: static ;
+        
+        margin-top: 5%;
+        padding-top: 5%;
+        padding-bottom: 20%;
+        margin-bottom: 10%;
+        margin-left: -6%;
+        
+    }
+    
+    .mapa ul
+    {
+        list-style: none;
+        display: block;
+        width: 100%;
+    }
+    
+    .mapa li{
+        padding-left: 2,5%;
+    }
+
+    .mapa iframe{
+        width: 350px;
+    }
+    
+    .mapa li .p{
+        font-family:sans-serif ;
+    }
+
+    
+    
+    
+    .mapa h1{
+    
+        font-size: 30px;
+        text-align: center;
+       color: rgb(184, 67, 0);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: -15%;
+    }
+    
+    .mapa p{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+    }
+    
+    .derechos{
+       
+        background-color: rgb(32, 32, 32);
+       
+        float: left;
+        width: 100%;
+        margin-left: 0px;
+            
+    }
+    
+    .derechos p{
+    
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .mapa a img{
+       margin: 0px;
+        margin-left: 7%;
+        width: 45px;
+    }
+
+}
+
+@media screen and (max-width: 420px)
+{
+    .padre{
+
+        background-color: rgb(71, 71, 71);
+    }
+    
+    .padre img{
+        width: 95%;
+        height: 95%;
+        margin-top: 15px;
+        margin-left: 2.5%;
+        
+    }
+    
+    h1{
+        color: rgb(255, 196, 0);
+        text-align: center;
+        font-size: 40px;
+        font-family:  sans-serif;
+        font-style:normal;
+        margin-top: 15%;
+        margin-left: 5%;
+    }
+
+    .barratexto{
+    
+        float: left;
+        
+        position: fixed;
+        background-color: rgb(32, 32, 32);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 6%;
+        
+        
+        
+    }
+    
+    .barratexto ul{
+    
+       margin-right: 5%;
+       margin-top: 2%;
+    }
+    
+    .barratexto ul li{
+        float: right;
+        list-style-type: none;
+        
+        text-align: left; 
+        margin: 5px;
+      
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    
+    .barratexto ul li a img{
+        margin-top: -15%;
+        width: 25px;
+    }
+    
+    .barratexto a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        
+        
+    }
+
+    .logo{
+        
+        position: static;
+        display: flex;
+        margin-top: 20%;
+        margin-left: 0%;
+        padding-bottom: 5%;
+        
+    }
+
+    .logo img{
+        width: 400px;
+    }
+    
+    .fotos{
+        width: 100%;
+        position: static ;
+    }
+
+    .fotos img{
+        width: 350px;
+    }
+    
+    .fotos .izq ul{
+        
+        list-style: none;
+        
+        display:block;
+        list-style-type: none;
+        margin-left: -6%;
+        
+        
+        
+        
+    }
+    
+    .fotos .izq li{
+        margin: 10px;
+        
+        
+    }
+    
+    .mapa{
+        
+        position: static ;
+        
+        margin-top: 5%;
+        padding-top: 5%;
+        padding-bottom: 20%;
+        margin-bottom: 10%;
+        margin-left: -9%;
+        
+    }
+    
+    .mapa ul
+    {
+        list-style: none;
+        display: block;
+        width: 100%;
+    }
+    
+    .mapa li{
+        padding-left: 2,5%;
+    }
+
+    .mapa iframe{
+        width: 350px;
+    }
+    
+    .mapa li .p{
+        font-family:sans-serif ;
+    }
+
+    
+    
+    
+    .mapa h1{
+    
+        font-size: 30px;
+        text-align: center;
+       color: rgb(184, 67, 0);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: -15%;
+    }
+    
+    .mapa p{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+    }
+    
+    .derechos{
+       
+        background-color: rgb(32, 32, 32);
+       
+        float: left;
+        width: 100%;
+        margin-left: 0px;
+            
+    }
+    
+    .derechos p{
+    
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .mapa a img{
+       margin: 0px;
+        margin-left: 7%;
+        width: 45px;
+    }
+
+}
+
+@media screen and (max-width: 390px)
+{
+    .padre{
+
+        background-color: rgb(71, 71, 71);
+    }
+    
+    .padre img{
+        width: 95%;
+        height: 95%;
+        margin-top: 15px;
+        margin-left: 2.5%;
+        
+    }
+    
+    h1{
+        color: rgb(255, 196, 0);
+        text-align: center;
+        font-size: 40px;
+        font-family:  sans-serif;
+        font-style:normal;
+        margin-top: 20%;
+    }
+
+    .barratexto{
+    
+        float: left;
+        
+        position: fixed;
+        background-color: rgb(32, 32, 32);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 6%;
+        
+        
+        
+    }
+    
+    .barratexto ul{
+    
+       margin-right: 5%;
+       margin-top: 2%;
+    }
+    
+    .barratexto ul li{
+        float: right;
+        list-style-type: none;
+        
+        text-align: left; 
+        margin: 5px;
+      
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    
+    .barratexto ul li a img{
+        margin-top: -15%;
+        width: 25px;
+    }
+    
+    .barratexto a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        
+        
+    }
+
+    .logo{
+        
+        position: static;
+        display: flex;
+        margin-top: 20%;
+        margin-left: -3%;
+        padding-bottom: 5%;
+        
+    }
+
+    .logo img{
+        width: 400px;
+    }
+    
+    .fotos{
+        width: 100%;
+        position: static ;
+    }
+
+    .fotos img{
+        width: 330px;
+    }
+    
+    .fotos .izq ul{
+        
+        list-style: none;
+        
+        display:block;
+        list-style-type: none;
+        margin-left: -7%;
+        
+        
+        
+        
+    }
+    
+    .fotos .izq li{
+        margin: 10px;
+        
+        
+    }
+    
+    .mapa{
+        
+        position: static ;
+        
+        margin-top: 5%;
+        padding-top: 5%;
+        padding-bottom: 20%;
+        margin-bottom: 10%;
+        margin-left: -10%;
+        
+    }
+    
+    .mapa ul
+    {
+        list-style: none;
+        display: block;
+        width: 100%;
+    }
+    
+    .mapa li{
+        padding-left: 2,5%;
+    }
+
+    .mapa iframe{
+        width: 330px;
+    }
+    
+    .mapa li .p{
+        font-family:sans-serif ;
+    }
+
+    
+    
+    
+    .mapa h1{
+    
+        font-size: 30px;
+        text-align: center;
+       color: rgb(184, 67, 0);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: -15%;
+    }
+    
+    .mapa p{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+    }
+    
+    .derechos{
+       
+        background-color: rgb(32, 32, 32);
+       
+        float: left;
+        width: 100%;
+        margin-left: 0px;
+            
+    }
+    
+    .derechos p{
+    
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .mapa a img{
+       margin: 0px;
+        margin-left: 5%;
+        width: 45px;
+    }
+
+}
+
+@media screen and (max-width: 380px)
+{
+    .padre{
+
+        background-color: rgb(71, 71, 71);
+    }
+    
+    .padre img{
+        width: 95%;
+        height: 95%;
+        margin-top: 15px;
+        margin-left: 2.5%;
+        
+    }
+    
+    h1{
+        color: rgb(255, 196, 0);
+        text-align: center;
+        font-size: 40px;
+        font-family:  sans-serif;
+        font-style:normal;
+        margin-top: 20%;
+    }
+
+    .barratexto{
+    
+        float: left;
+        
+        position: fixed;
+        background-color: rgb(32, 32, 32);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 6%;
+        
+        
+        
+    }
+    
+    .barratexto ul{
+    
+       margin-right: 5%;
+       margin-top: 2%;
+    }
+    
+    .barratexto ul li{
+        float: right;
+        list-style-type: none;
+        
+        text-align: left; 
+        margin: 5px;
+      
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    
+    .barratexto ul li a img{
+        margin-top: -15%;
+        width: 25px;
+    }
+    
+    .barratexto a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        
+        
+    }
+
+    .logo{
+        
+        position: static;
+        display: flex;
+        margin-top: 20%;
+        margin-left: -5%;
+        padding-bottom: 5%;
+        
+    }
+
+    .logo img{
+        width: 400px;
+    }
+    
+    .fotos{
+        width: 100%;
+        position: static ;
+    }
+
+    .fotos img{
+        width: 300px;
+    }
+    
+    .fotos .izq ul{
+        
+        list-style: none;
+        
+        display:block;
+        list-style-type: none;
+        margin-left: -7%;
+        
+        
+        
+        
+    }
+    
+    .fotos .izq li{
+        margin: 10px;
+        
+        
+    }
+    
+    .mapa{
+        
+        position: static ;
+        
+        margin-top: 5%;
+        padding-top: 5%;
+        padding-bottom: 20%;
+        margin-bottom: 10%;
+        margin-left: -10%;
+        
+    }
+    
+    .mapa ul
+    {
+        list-style: none;
+        display: block;
+        width: 100%;
+    }
+    
+    .mapa li{
+        padding-left: 2,5%;
+    }
+
+    .mapa iframe{
+        width: 300px;
+    }
+    
+    .mapa li .p{
+        font-family:sans-serif ;
+    }
+
+    
+    
+    
+    .mapa h1{
+    
+        font-size: 30px;
+        text-align: center;
+       color: rgb(184, 67, 0);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: -15%;
+    }
+    
+    .mapa p{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+    }
+    
+    .derechos{
+       
+        background-color: rgb(32, 32, 32);
+       
+        float: left;
+        width: 100%;
+        margin-left: 0px;
+            
+    }
+    
+    .derechos p{
+    
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .mapa a img{
+       margin: 0px;
+        margin-left: 5%;
+        width: 45px;
+    }
+
+}
