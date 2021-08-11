@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.1.0"
+  },
+  "name": "rapanui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "purgecss --css sass/custom.css --content index.html --content html/carta.html -o sass/reducido.css" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

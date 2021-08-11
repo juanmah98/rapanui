@@ -1,0 +1,12 @@
+
+$primary:#363636;
+$danger:#747474;
+
+@media (max-width: 450px) { 
+     .prim{
+font-size: 12px;
+    }
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
