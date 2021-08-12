@@ -1,6 +1,18 @@
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   .prim {
     font-size: 12px;
+  }
+  .jh {
+    width: 45px;
+  }
+}
+
+@media (max-width: 400px) {
+  .prim {
+    font-size: 10px;
+  }
+  .prim .jh {
+    width: 45px;
   }
 }
 
