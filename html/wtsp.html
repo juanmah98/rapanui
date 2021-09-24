@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wtsp</title>
+    <link rel="stylesheet" href="../sass/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css">
+</head>
+
+<body class="bg-secondary">
+    <nav class="navbar navbar-expand navbar-light bg-primary fixed-top  ">
+      
+
+        <div class="container-fluid d-flex justify-content-end ">
+         
+            <a class="navbar-brand text-light  " href="./index.html">HOME</a>
+            <a class="navbar-brand text-light" href="./carta.html">CARTA</a>
+        </div>
+    </nav>
+
+    <div class="row container-fluid pt-3 ">
+        <div class="col container pt-5 d-flex justify-content-center ">
+
+            
+
+    <div class="w-full max-w-xs">
+        <p class="fs-2 text-center fw-bold text-warning">REALIZA TU PEDIDO</p>
+        <form id="form" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                    Nombre y Apellido
+                </label>
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    name="name" id="name" type="text" placeholder="Ingresa tu nombre" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                    Direccion
+                </label>
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    name="lastname" id="dir" type="text" placeholder="Ingresa tus direccion" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                    Número de Telefono
+                </label>
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    name="email" id="telefono" type="number" placeholder="Ingresa tu telefono" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                    Pedido
+                </label>
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    name="email" id="pedido" type="text" placeholder="Ingresa tu pedido" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                    Detalle / algo para aclarar del pedido
+                </label>
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    name="email" id="detalle" type="text" placeholder="Detalle no obligatorio" >
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="name" >
+                    Foram de pago
+                </label> 
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    name="email" id="pago" type="text" placeholder="Efectivo / MercadoPago" required>
+                    
+            </div>
+
+
+            <div class="flex items-center justify-between">
+                <button id="submit"
+                    class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    type="submit">
+                    <i class="fab fa-whatsapp"></i> Enviar WhatsApp
+                </button>
+            </div>
+        </form>
+        
+    </div>
+    <script src="https://kit.fontawesome.com/1e268974cb.js" crossorigin="anonymous"></script>
+    <script src="../assets/js/herlpers.js"></script>
+    <script src="../assets/js/whatsapp.js"></script>
+
+    </div>  
+</div>
+
+    <div class="row">
+        <div class="col-12 bg-primary position-absolute  end-0 ">
+            <p></p>
+                    <p class="prim text-center text-light w-100">RAPA-NUI LOMOS 2017 - TODOS LOS DERECHOS RESERVADOS <a href="https://wa.link/9b4g8y"><img src="./Logos/Marca.png" width="55px" alt="" class="jh"></a> </p>
+            
+            
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
