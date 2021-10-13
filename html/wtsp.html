@@ -7,6 +7,7 @@
     <title>Wtsp</title>
     <link rel="stylesheet" href="../sass/custom.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css">
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 
 <body class="bg-secondary">
@@ -17,6 +18,7 @@
          
             <a class="navbar-brand text-light  " href="../index.html">HOME</a>
             <a class="navbar-brand text-light" href="../carta.html">CARTA</a>
+            <a class="navbar-brand text-warning" href="./wtsp.html">DELIVERY</a>
         </div>
     </nav>
 
@@ -26,7 +28,7 @@
             
 
     <div class="w-full max-w-xs">
-        <p class="fs-2 text-center fw-bold text-warning">REALIZA TU PEDIDO</p>
+        <p class="fs-2 text-center fw-bold text-warning s">REALIZA TU PEDIDO</p>
         <form id="form" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
             <div class="mb-4">
                 <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
@@ -72,9 +74,23 @@
                 <label class="block text-gray-700 text-sm font-bold mb-2" for="name" >
                     Foram de pago
                 </label> 
-                <input
+                
+                <!-- <input
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                    name="pago" id="pago" type="text" placeholder="Efectivo / MercadoPago" required>
+                    name="pago" id="pago" type="text" placeholder="Efectivo / MercadoPago" required> -->
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Efectivo
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Mercado Pago
+                        </label>
+                      </div>
                     
             </div>
 
@@ -96,14 +112,25 @@
     </div>  
 </div>
 
-    <div class="row">
-        <div class="col-12 bg-primary position-absolute  end-0 ">
-            <p></p>
-                    <p class="prim text-center text-light w-100">RAPA-NUI LOMOS 2017 - TODOS LOS DERECHOS RESERVADOS <a href="https://wa.link/9b4g8y"><img src="./Logos/Marca.png" width="55px" alt="" class="jh"></a> </p>
-            
-            
-        </div>
+<div class="col-xs-12 col-sm-12 col-lg-4 col-md-12  container-fluid text-center justify-content-center mb-4 pb-2" >
+
+    <div class="card shadow p-3"> 
+        <p> Recuerda ser lo mas claro posible cuando gestiones tu pedido </p>
+        <p> <b>Zonas de envios:</b>  Capital, Santa Lucia y Rivadavia </p>
     </div>
+
+</div>
+
+<footer>
+                                    
+    <div class="col-12 bg-primary position-absolute  end-0 mt-3 pt-2 pb-2">
+       
+        <p class="prim text-center text-light w-100">RAPA-NUI LOMOS 2017 - TODOS LOS DERECHOS RESERVADOS <a href="https://wa.link/9b4g8y"> <img src="./Logos/Bricode.png" width="45px" alt="" class=""></a> </p>
+      
+        
+    </div>
+    
+  </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>

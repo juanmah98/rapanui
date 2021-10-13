@@ -1,0 +1,159 @@
+.image-0{
+    background-image: url(../Imagenes/Galeria/0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50em;
+    width: 100%;
+    
+}
+
+.image-1{
+    background-image: url(../Imagenes/Galeria/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50em;
+    width: 100%;
+    
+}
+
+.image-2{
+    background-image: url(../Imagenes/Galeria/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50em;
+    width: 100%;
+    
+}
+
+.image-3{
+    background-image: url(../Imagenes/Galeria/3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50em;
+    width: 100%;
+    
+}
+
+.image-4{
+    background-image: url(../Imagenes/Galeria/4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50em;
+    width: 100%;
+    
+}
+
+.image-5{
+    background-image: url(../Imagenes/Galeria/5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50em;
+    width: 100%;
+    
+}
+
+.image-6{
+    background-image: url(../Imagenes/Galeria/6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50em;
+    width: 100%;
+    
+}
+
+.image-7{
+    background-image: url(../Imagenes/Galeria/7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50em;
+    width: 100%;
+    
+}
+
+.img-red{
+    width: 70px;
+}
+
+.image-map{
+    background-image: url(../Logos/fondomapa.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    
+    
+}
+
+.image-red{
+    background-image: url(../Logos/fondoredes.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 22em;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+@media (max-width: 500px) { 
+    
+    .image-0{
+        background-image: url(../Imagenes/Galeria/8.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50em;
+        width: 100%;
+        
+    }
+    
+
+    .img-red{
+        width: 50px;
+    }
+   
+}
+
+@media (max-width: 330px) { 
+    
+
+    .img-red{
+        width: 50px;
+    }
+
+    
+
+    
+
+    
+
+
+   
+}
+
+@media (max-width: 500px) { 
+    .prim{
+font-size: 12px;
+   }
+   .jh{
+       width: 45px;
+   }
+}
+
+@media (max-width: 400px) { 
+   .prim{
+font-size: 10px;
+   }
+    .jh{
+   width: 45px;
+    }
+  }
