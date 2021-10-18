@@ -104,6 +104,25 @@
     background-attachment: fixed;
 }
 
+.text-gray-700{
+    color: rgb(88, 88, 88);
+    font-size: 15px;
+    width: 100%;
+    
+    
+}
+
+.cuadro{
+    appearance: none;
+    background-color: rgba(221, 246, 255, 0.719);
+}
+
+
+
+.bg-green-500{
+    background-color: rgba(1, 190, 1, 0.733);
+}
+
 @media (max-width: 500px) { 
     
     .image-0{

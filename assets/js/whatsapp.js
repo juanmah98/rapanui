@@ -43,5 +43,5 @@ $form.addEventListener('submit', (event) => {
             buttonSubmit.innerHTML = '<i class="fab fa-whatsapp"></i> Enviar WhatsApp'
             buttonSubmit.disabled = false
         }
-    }, 4000);
+    }, 2000);
 });
