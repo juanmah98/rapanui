@@ -3,6 +3,11 @@
         src: url(../fonts/eras-bold-itc.ttf);
 }
 
+@font-face {
+        font-family: "carta2";
+        src: url(../fonts/erasef-medium.otf);
+}
+
 .bg-carta{
     
         background-image: url(../Logos/carta.jpg);
@@ -17,9 +22,13 @@
     
 }
 
-.f-rapa{
+.fw-rapa{
        font-family: "carta";
 }
+
+.f-rapa{
+        font-family: "carta2";
+ }
 
 .bg-wtsp{
     
