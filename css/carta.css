@@ -1,3 +1,8 @@
+@font-face {
+        font-family: "carta";
+        src: url(../fonts/eras-bold-itc.ttf);
+}
+
 .bg-carta{
     
         background-image: url(../Logos/carta.jpg);
@@ -10,6 +15,10 @@
         
         
     
+}
+
+.f-rapa{
+       font-family: "carta";
 }
 
 .bg-wtsp{
