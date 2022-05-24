@@ -1,5 +1,16 @@
+.vinilo{
+    /* background-image: url(../Logos/vinilo-negro.jpg);    */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Logos/vinilo-negro.jpg");
+    background-position: center;
+   
+}
+
+.chau{
+    text-decoration: none;
+}
+
 .image-0{
-    background-image: url(../Imagenes/Galeria/0.jpg);
+    background-image: url(../Imagenes/Galeria/2022/0.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,7 +20,7 @@
 }
 
 .image-1{
-    background-image: url(../Imagenes/Galeria/1.jpg);
+    background-image: url(../Imagenes/Galeria/2022/1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,7 +30,7 @@
 }
 
 .image-2{
-    background-image: url(../Imagenes/Galeria/2.jpg);
+    background-image: url(../Imagenes/Galeria/2022/2.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +40,7 @@
 }
 
 .image-3{
-    background-image: url(../Imagenes/Galeria/3.jpg);
+    background-image: url(../Imagenes/Galeria/2022/3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,7 +50,7 @@
 }
 
 .image-4{
-    background-image: url(../Imagenes/Galeria/4.jpg);
+    background-image: url(../Imagenes/Galeria/2022/4.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,7 +60,7 @@
 }
 
 .image-5{
-    background-image: url(../Imagenes/Galeria/5.jpg);
+    background-image: url(../Imagenes/Galeria/2022/5.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -59,7 +70,7 @@
 }
 
 .image-6{
-    background-image: url(../Imagenes/Galeria/6.jpg);
+    background-image: url(../Imagenes/Galeria/2022/6.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,7 +79,7 @@
     
 }
 
-.image-7{
+/* .image-7{
     background-image: url(../Imagenes/Galeria/7.jpg);
     background-size: cover;
     background-position: center;
@@ -76,7 +87,7 @@
     height: 50em;
     width: 100%;
     
-}
+} */
 
 
 
@@ -184,9 +195,18 @@
     background-color: rgba(1, 190, 1, 0.733);
 }
 
+
+
 @media (max-width: 500px) { 
+
+    .prim{
+        font-size: 12px;
+           }
+           .jh{
+               width: 65px;
+           }
     
-    .image-0{
+    /* .image-0{
         background-image: url(../Imagenes/Galeria/8.jpg);
         background-size: cover;
         background-position: center;
@@ -194,7 +214,7 @@
         height: 50em;
         width: 100%;
         
-    }
+    } */
     
 
     .img-red{
@@ -203,7 +223,7 @@
 
     .redes ul li a{
         display: block;
-        padding: 0 10px;
+        padding: 0 10px;        
         background: #333;
         color: #fff;
         line-height: 60px;
@@ -212,10 +232,41 @@
         transition: .2s;
         border-radius: 20%;
     }
+    .redes ul {
+        padding-right: 20px;
+    }
    
 }
 
-@media (max-width: 375px) { 
+@media (max-width: 400px) { 
+    .prim{
+ font-size: 10px;
+    }
+     .jh{
+    width: 60px;
+     }
+ 
+     .redes ul li a{
+         display: block;
+         padding: 0 10px;       
+         margin-top: 20px;
+         background: #333;
+         color: #fff;
+         line-height: 60px;
+         font-size: 30px;
+         box-shadow: 0 3px 5px 0px rgba(0,0,0,.2);
+         transition: .2s;
+         border-radius: 20%;
+     }
+     .redes ul{
+         padding-right: 60px;
+         padding-left: 100px;
+         
+         
+     }
+   }
+
+@media (max-width: 365px) { 
     
 
     .img-red{
@@ -223,46 +274,42 @@
     }
 
     .redes{
-    display: flex;
+        padding-right:50px ;
     
-    align-items: center;
-    justify-content: center;
+    
 }
 
     
     .redes ul li a{
         display: block;
-        padding: 0 10px;
+        
         background: #333;
         color: #fff;
-        line-height: 40px;
+        line-height: 60px;        
         font-size: 30px;
         box-shadow: 0 3px 5px 0px rgba(0,0,0,.2);
         transition: .2s;
-        border-radius: 20%;
+        border-radius: 10%;
     }
+    .image-red{
+        background-image: url(../Logos/fondoredes.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 35em;
+        width: 100%;
+        background-attachment: fixed;
+    }
+    .redes{
+        align-items: center;
+    }
+  
     
-
-    
-
-
-   
 }
 
-@media (max-width: 500px) { 
-    .prim{
-font-size: 12px;
-   }
-   .jh{
-       width: 65px;
-   }
-}
 
-@media (max-width: 400px) { 
-   .prim{
-font-size: 10px;
-   }
-    .jh{
-   width: 60px;
-    }
-  }
+
+
+
+  
+
