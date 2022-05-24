@@ -259,14 +259,23 @@
          border-radius: 20%;
      }
      .redes ul{
-         padding-right: 60px;
-         padding-left: 100px;
+         padding-right: 50px;
+         padding-left: 90px;
          
          
      }
+     .image-red{
+        background-image: url(../Logos/fondoredes.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 25em;
+        width: 100%;
+        background-attachment: fixed;
+    }
    }
 
-@media (max-width: 365px) { 
+@media (max-width: 340px) { 
     
 
     .img-red{
